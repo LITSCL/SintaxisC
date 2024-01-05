@@ -7,14 +7,14 @@ int main(void) { //a_variables
     double numero_2;
     float numero_3;
     char texto_1[50]; //Se usa un array de caracteres ya que al no existir orientación a objetos, no existe la clase String.
-    int booleano_1; //No existe el tipo de dato booleano, peros se simulan usando los enteros 0 y 1.
+    int booleano_1; //No existe el tipo de dato booleano, pero se simulan usando los enteros 0 y 1.
 
     //Iniciación de Variables.
     numero_1 = 10;
     numero_2 = 10.3;
     numero_3 = 10.3F;
     snprintf(texto_1, sizeof(texto_1), "Hola Mundo"); //Se utiliza la función "snprintf" para copiar la cadena en el array de caracteres.
-    booleano_1 = 1; //Se utiliza el 1 para representar true.
+    booleano_1 = 1; //Se utiliza el 1 para representar true y el 0 para representar false.
 
     //Declaración e iniciación de variables en una sola línea.
     int numero_1v2 = 10;
