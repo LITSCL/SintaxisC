@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int b_operadores_incremento(void) { //b_operadores_incremento
+int b_operadores_incremento() { //b_operadores_incremento
 
     int numero_1 = 0;
 

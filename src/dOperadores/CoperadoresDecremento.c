@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int c_operadores_decremento(void) { //c_operadores_decremento
+int c_operadores_decremento() { //c_operadores_decremento
 
     int numero_1 = 0;
 
