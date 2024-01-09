@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() { //i_float_a_string
+int i_float_a_string() { //i_float_a_string
 
 	float numero_float = 10; //Se declara e inicia la variable de tipo float.
 
