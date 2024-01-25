@@ -12,14 +12,14 @@ int a_variables() { //a_variables
 	//Iniciación de Variables.
 	numero_1 = 10;
 	numero_2 = 10.3;
-	numero_3 = 10.3F;
+	numero_3 = 10.3f;
 	snprintf(texto_1, sizeof(texto_1), "Hola Mundo");
 	booleano_1 = 1; //Se utiliza el 1 para representar true y el 0 para representar false.
 
 	//Declaración e iniciación de variables en una sola línea.
 	int numero_1v2 = 10;
 	double numero_2v2 = 10.3;
-	float numero_3v2 = 10.3F;
+	float numero_3v2 = 10.3f;
 	char texto_1v2[250]; snprintf(texto_1v2, sizeof(texto_1v2), "Hola Mundo");
 	int booleano_1v2 = 1;
 
